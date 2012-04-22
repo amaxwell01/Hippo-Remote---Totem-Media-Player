@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appname</key>
+	<string>Totem Movie Player</string>
+	<key>auto_pause</key>
+	<string>[SPACE]</string>
+	<key>auto_resume</key>
+	<string>[SPACE]</string>
+	<key>initial_tab</key>
+	<integer>2</integer>
+	<key>buttons</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<string>[CTRL+ALT+D]</string>
+			<key>image</key>
+			<string>showdesktop.png</string>
+			<key>text</key>
+			<string>ShowDesktop</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>[OVERLAY:playpad]</string>
+			<key>image</key>
+			<string>playpad.png</string>
+			<key>text</key>
+			<string>PlayPad</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>[MACROS]</string>
+			<key>image</key>
+			<string>actions.png</string>
+			<key>text</key>
+			<string>Macros</string>
+		</dict>
+	</array>
+</dict>
+</plist>
